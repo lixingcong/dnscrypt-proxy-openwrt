@@ -1,0 +1,11 @@
+--- Makefile	2016-05-02 22:01:37.615435552 +0800
++++ Makefile_mod	2016-05-02 22:02:45.969435536 +0800
+@@ -12,7 +12,7 @@
+ PKG_RELEASE:=1
+ 
+ PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+-PKG_SOURCE_URL:=https://download.libsodium.org/libsodium/releases
++PKG_SOURCE_URL:=https://download.libsodium.org/libsodium/releases/old
+ PKG_MD5SUM:=dc40eb23e293448c6fc908757738003f
+ 
+ PKG_FIXUP:=libtool autoreconf
