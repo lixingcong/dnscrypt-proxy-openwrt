@@ -2,8 +2,9 @@
 
 灵感源自[dnscrypt-proxy-openwrt项目](https://github.com/damianorenfer/dnscrypt-proxy-openwrt)，个人作些许修改。
 
-当前版本：1.6.1
-依赖软件包：libsoudium 1.0.2
+当前版本：[1.6.1](https://download.dnscrypt.org/dnscrypt-proxy)
+
+依赖软件包：[libsodium 1.0.2](https://github.com/jedisct1/libsodium)
 
 编译步骤：
 
