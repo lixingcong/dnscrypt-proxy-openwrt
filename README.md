@@ -8,11 +8,13 @@
 
 编译步骤：
 
+	# 我的openwrt 内核树是15.05，其他分支不一定能patch成功
 	cd ~/openwrt
 	git clone https://github.com/lixingcong/dnscrypt-proxy-openwrt
 
 先patch
 
+	# 如果patch失败了，可以自己打开patch自己手动改文件
 	patch package/feeds/packages/dnscrypt-proxy/Makefile < dnscrypt-proxy-openwrt/002-dnscrypt.patch
 	patch package/feeds/packages/libsodium/Makefile < dnscrypt-proxy-openwrt/001-libsodium.patch
 	
